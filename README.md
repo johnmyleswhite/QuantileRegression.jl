@@ -1,6 +1,6 @@
 # QReg
 
-A very simple (and untested) implementation of quantile regression.
+A very simple (and mostly untested) implementation of quantile regression.
 
 * https://github.com/vincentarelbundock/QReg
 * Author: Vincent Arel-Bundock
@@ -16,7 +16,7 @@ The file ``examples/qreg_example.jl`` shows how to use the functions provided he
 
 * Koenker, Roger and Kevin F. Hallock. "Quantile Regression". Journal of Economic Perspectives, Volume 15, Number 4, Fall 2001, Pages 143–156
 
-We are interested in the relationship between income and expenditures on food for a sample of working class Belgian households in 1857 (the Engel data), and plot regression estimates at different quantiles.
+We are interested in the relationship between income and expenditures on food for a sample of working class Belgian households in 1857 (the Engel data), so we estimate a least absolute deviation model.
 
     # Load stuff
     using QReg
